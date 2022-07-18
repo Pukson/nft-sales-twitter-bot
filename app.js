@@ -140,8 +140,8 @@ async function monitorContract() {
           `${_.get(
             tokenData,
             'assetName',
-            `#` + tokens[0]
-          )} bought for ${totalPrice} ${currency.name} on ${market.name} ${
+            `APIEN#` + tokens[0]
+          )} bought for ${totalPrice} ${currency.name} on ${market.name}#LFG #THEAPIENS ${
             market.site
           }${process.env.CONTRACT_ADDRESS}/${tokens[0]}`
         );
